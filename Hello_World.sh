@@ -1,9 +1,5 @@
-echo "\$# is " $# 
-echo "\$0 is " $0
-echo "\$1 is " $1
-echo "\$2 is " $2
-echo "\$3 is " $3
-
-var1="Type"
-echo "Hello $1!!"
+echo "Hello User!!"
+echo "Please share Your Name With us:"
+read var1
+echo "Hello $var1!!"
 
