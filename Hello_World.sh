@@ -3,14 +3,18 @@ echo "Please Enter the total %age :"
 read var1
 if [[ $var1 > 60 ]]
 then
-echo "You Passed with First Divison"
-elif [[ $var1 > 40 ]]
-then
-echo "You Passed with Second Division"
-elif [[ $var1 > 33 ]]
-then
-echo "You have just passed"
+	if [[ $var1 > 80 ]]
+	then
+		echo "Hello You are the tOp members "
+	else
+		echo "Hello You just missed the top LIST"
+	fi
 else
-echo "Invalid Entry"
+	if [[ $var1 >33 ]]
+	then
+		echo "well you have passed"
+	else
+		echo "You have failed"
+	fi
 fi
 
